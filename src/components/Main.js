@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import Sidebar from "./Sidebar";
 import BasicInfo from "./BasicInfo";
+import Experience from './Experience';
 
 class Main extends Component {
   constructor() {
@@ -13,6 +13,7 @@ class Main extends Component {
     return (
       <main className="bg-gray-300 h-screen w-screen">
         <BasicInfo />
+        <Experience />
       </main>
     );
   }
